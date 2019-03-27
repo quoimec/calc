@@ -11,6 +11,8 @@
 		054418F12055EEE9008C821B /* calc in Resources */ = {isa = PBXBuildFile; fileRef = 054418EA2055EED5008C821B /* calc */; };
 		054418F62055EFEB008C821B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054418F52055EFEB008C821B /* main.swift */; };
 		05C4D95F1E76182500AB9F52 /* CalcTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C4D95E1E76182500AB9F52 /* CalcTest.swift */; };
+		CB4820B4224AFE4400C6A05A /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4820B3224AFE4400C6A05A /* models.swift */; };
+		CB4820B6224B05AF00C6A05A /* calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4820B5224B05AF00C6A05A /* calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		05C4D95E1E76182500AB9F52 /* CalcTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcTest.swift; sourceTree = "<group>"; };
 		05C4D9601E76182500AB9F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05F9F69E1E9DEDD500694D73 /* CalcTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalcTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		CB4820B3224AFE4400C6A05A /* models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
+		CB4820B5224B05AF00C6A05A /* calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				054418F52055EFEB008C821B /* main.swift */,
+				CB4820B3224AFE4400C6A05A /* models.swift */,
+				CB4820B5224B05AF00C6A05A /* calculator.swift */,
 			);
 			path = calc;
 			sourceTree = "<group>";
@@ -202,7 +208,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB4820B6224B05AF00C6A05A /* calculator.swift in Sources */,
 				054418F62055EFEB008C821B /* main.swift in Sources */,
+				CB4820B4224AFE4400C6A05A /* models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
